@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignments - E-Learning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>E-Learning Platform</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="assignments.html">Assignments</a>
+      <a href="profile.html">Profile</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="assignments-section">
+      <h2>Your Assignments</h2>
+      <div class="assignment">
+        <h3>Assignment 1: HTML Page</h3>
+        <p>Create a simple homepage using HTML and CSS.</p>
+        <button onclick="markAssignmentComplete(1)">Mark as Submitted</button>
+        <p id="status-1" class="status">Status: Not Submitted ❌</p>
+      </div>
+
+      <div class="assignment">
+        <h3>Assignment 2: CSS Styling</h3>
+        <p>Style your homepage using flexbox or grid layout.</p>
+        <button onclick="markAssignmentComplete(2)">Mark as Submitted</button>
+        <p id="status-2" class="status">Status: Not Submitted ❌</p>
+      </div>
+
+      <div class="assignment">
+        <h3>Assignment 3: JavaScript Basics</h3>
+        <p>Write a small JavaScript program that interacts with the user.</p>
+        <button onclick="markAssignmentComplete(3)">Mark as Submitted</button>
+        <p id="status-3" class="status">Status: Not Submitted ❌</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Mini E-Learning Prototype</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
